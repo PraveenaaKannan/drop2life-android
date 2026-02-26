@@ -60,5 +60,20 @@ dependencies {
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth)
     implementation(libs.firebase.firestore)
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("com.google.android.material:material:1.11.0")
+    implementation("io.coil-kt:coil-compose:2.5.0")
+    implementation("com.google.accompanist:accompanist-pager:0.34.0")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.34.0")
+    implementation("com.google.accompanist:accompanist-pager:0.30.1")
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.30.1")
+    implementation("androidx.activity:activity-compose:1.9.0")
+
+        implementation("com.google.firebase:firebase-auth:22.3.1")
+        implementation("com.google.firebase:firebase-firestore:24.10.1")
+        implementation("com.google.firebase:firebase-storage:20.3.0")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+        implementation("io.coil-kt:coil-compose:2.5.0")
+
 
 }
